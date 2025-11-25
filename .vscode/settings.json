@@ -1,0 +1,30 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "/workspaces/python-starter/.venv/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
+    },
+    "remote.localPortHost": "allInterfaces",
+    "ruff.nativeServer": "on",
+    "ruff.configuration": "/workspaces/python-starter/pyproject.toml",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.analysis.autoImportCompletions": true,
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "python-envs.pythonProjects": []
+}
